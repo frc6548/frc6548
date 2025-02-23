@@ -9,7 +9,8 @@ We are a **local team** located in Perry, Michigan with 20 members.
 - 🌎 Former Worlds Contestant (2017 - 2018)
 - 🏆 Winner of Sustainability Award
 
-## 📱 Our Sponsors
+## 📱 Our Sponsors 
+<!-- To do: turn this into a grid -->
 Thank you to all of our sponsors:
 - [Walmart of Okemos](https://www.walmart.com/)
 - [MIDWAY Rotary Die Solutions](https://midwayrotary.com/)
@@ -26,17 +27,3 @@ Thank you to all of our sponsors:
 - Decator Farms
 - JS Tooling LLC.
 - Joe's Body Shop
-<!--
-**frc6548/frc6548** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
