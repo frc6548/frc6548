@@ -1,5 +1,5 @@
-<h1 align="center"> Perry RAMBOTS </h1>
-<align="center">🤖 The official page for the FRC 6548 team!</align>
+<h1 align="center">Perry RAMBOTS</h1>
+<h3 align="center">🤖 The official page for the FRC 6548 team!</h3>
 
 ---
 
