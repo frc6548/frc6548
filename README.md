@@ -1,6 +1,6 @@
 <h1 align="center">Perry RAMBOTS</h1>
-<h3 align="center">🤖 The official page for the FRC 6548 team!
-  <img src="https://github.com/frc6548/frc6548/blob/main/photo1.jpg?raw=true" width=60%>
+<h3 align="center">🤖 The official page for the FRC 6548 team!<br><br>
+<img src="https://github.com/frc6548/frc6548/blob/main/photo1.jpg?raw=true" width=60%>
 </h3>
 
 ---
