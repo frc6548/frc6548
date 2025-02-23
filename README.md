@@ -1,3 +1,4 @@
+<align="center">
 ## Perry RAMBOTS
 🤖 The official page for the FRC 6548 team!
 
