@@ -1,0 +1,320 @@
+[
+  {
+    "type": "header",
+    "label": "DRIVE BASE"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "textblock",
+    "label": "Would you eat a ghostpepper pizza?",
+    "id": "Yes, but for the plot."
+  },
+  {
+    "type": "multiselect",
+    "label": "Drive base type(Observation)",
+    "options": [
+      "Swerve",
+      "Tank",
+      "Mecanum"
+    ],
+    "id": "driveBaseType"
+  },
+  {
+    "type": "slider",
+    "label": "Robot Frame Length (in):",
+    "id": "Length",
+    "options": {
+      "min": 0,
+      "max": 48,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "label": "Robot Frame Width (in):",
+    "id": "Width",
+    "options": {
+      "min": 0,
+      "max": 48,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "label": "Robot Height (in):",
+    "id": "Height",
+    "options": {
+      "min": 0,
+      "max": 30,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "label": "Robot weight w/out bumpers or battery (lbs):",
+    "id": "Weight",
+    "options": {
+      "min": 60,
+      "max": 125,
+      "step": 5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "subheader",
+    "label": "What driver station do they prefer to be in?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outpost driver station?",
+    "id": "TopStation"
+  },
+  {
+    "type": "checkbox",
+    "label": "Middle driver station?",
+    "id": "MiddleStation"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outside driver station?",
+    "id": "BottomStation"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "AUTONOMOUS PERIOD"
+  },
+  {
+    "type": "slider",
+    "label": "How many Fuel can they score during Auto?",
+    "id": "numFuelAuto",
+    "options": {
+      "min": 0,
+      "max": 20,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "label": "How many Autonomous routines do they have?",
+    "id": "numAutoRoutines",
+    "options": {
+      "min": 0,
+      "max": 20,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they climb in Auto",
+    "id": "canclimbAuto"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they get Fuel from the Depot in Auto?",
+    "id": "candepotauto"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they get Fuel from the Outpost in Auto?",
+    "id": "canfueloutpostauto"
+  },
+  {
+    "type": "subheader",
+    "label": "Where Can They Start In Auto?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outpost Side",
+    "id": "StartOutpost"
+  },
+  {
+    "type": "checkbox",
+    "label": "Center",
+    "id": "StartCenter"
+  },
+  {
+    "type": "checkbox",
+    "label": "Outside Side",
+    "id": "StartFar"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "subheader",
+    "label": "Fuel Intake"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they pick up Fuel from the ground?",
+    "id": "canPickupfuelGround"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they pick up Fuel from the Outpost?",
+    "id": "canPickupFuelOutpost"
+  },
+  {
+    "type": "slider",
+    "id": "intakeHoldingAbility",
+    "label": "How much Fuel can your robot hold at once in its hopper?",
+    "options": {
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "id": "TimeDurationPickUp",
+    "label": "How long does it take you to pick up this amount of Fuel? (seconds)",
+    "options": {
+      "min": 0,
+      "max": 15,
+      "step": 0.5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "slider",
+    "id": "TimeDurationShoot",
+    "label": "How long does it take you to shoot this amount of Fuel? (seconds)",
+    "options": {
+      "min": 0,
+      "max": 15,
+      "step": 0.5
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they feed the Outpost?",
+    "id": "canfeedOutpost"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they pick up Fuel from the Depot?",
+    "id": "canPickupFuelDepot"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they feed the Alliance Zone? (Shoot Fuel from the Neutral Zone to the Alliance Zone)",
+    "id": "canfeedAllianceZone"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they also feed our Alliance Zone from the other alliance's Alliance Zone?",
+    "id": "canfeedAZfromAZ"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they shoot and move at the same time?",
+    "id": "canshootandmove"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "subheader",
+    "label": "TELEOP SCORING"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they score Fuel?",
+    "id": "canScoreFuel"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "END GAME / TOWER"
+  },
+  {
+    "type": "subheader",
+    "label": "What do they do climbing wise?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Keep Scoring?",
+    "id": "KeepScoring"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L1?",
+    "id": "L1Climb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L2?",
+    "id": "L2Climb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Climb L3?",
+    "id": "L3Climb"
+  },
+  {
+    "type": "subheader",
+    "label": "What direction do they prefer to climb in?"
+  },
+  {
+    "type": "checkbox",
+    "label": "Left Climbing Position?",
+    "id": "LeftClimb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Middle Climbing Position?",
+    "id": "MiddleClimb"
+  },
+  {
+    "type": "checkbox",
+    "label": "Right Climb Position?",
+    "id": "RightClimb"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "header",
+    "label": "FINAL THOUGHTS"
+  },
+  {
+    "type": "textblock",
+    "label": "What is their preferred strategy during the Quals?(Offence, Defence, Feed, ETC...)",
+    "id": "preferredStrategy"
+  },
+  {
+    "type": "textblock",
+    "label": "What is their preferred strategy during PLAYOFFS (Offence, Defence, Feed, ETC...)",
+    "id": "PlayoffStrategy"
+  },
+  {
+    "type": "slider",
+    "variant": "standard",
+    "label": "How Friendly Is the Team?(Observation)",
+    "id": "howFriendly",
+    "options": {
+      "min": 1,
+      "max": 5,
+      "step": 0.5
+    }
+  },
+  {
+    "type": "textblock",
+    "label": "FINAL THOUGHTS / NOTES",
+    "id": "notes"
+  }
+]
