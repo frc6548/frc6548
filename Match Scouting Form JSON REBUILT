@@ -22,27 +22,17 @@
   },
   {
     "type": "checkbox",
-    "label": "Did they leave the starting line",
+    "label": "Did they leave their starting position?",
     "id": "AutoMove"
   },
   {
     "type": "checkbox",
-    "label": "Did they get Fuel from the Depot?",
-    "id": "DepotFuelAuton"
-  },
-  {
-    "type": "checkbox",
-    "label": "Did they get Fuel from the Outpost",
-    "id": "AutoScore"
-  },
-  {
-    "type": "checkbox",
-    "label": "Did they climb in Auto",
+    "label": "Did they climb in Auto?",
     "id": "AutoClimb"
   },
   {
     "type": "counter",
-    "label": "Fuel scored by robot in Auto",
+    "label": "Fuel scored by robot in Auto Single Fuel",
     "id": "autoTotalFuel",
     "allow_negative": false,
     "variant": "standard"
@@ -55,40 +45,13 @@
     "label": "Tele-Operated"
   },
   {
-    "type": "checkbox",
-    "label": "Did they pick up Fuel from the ground",
-    "id": "DidIntake"
-  },
-  {
-    "type": "checkbox",
-    "label": "Can they shoot and move at the same time?",
-    "id": "MoveandShoot"
-  },
-  {
-    "type": "checkbox",
-    "label": "Did they get Fuel from the Depot?",
-    "id": "DepotFuelTele"
-  },
-  {
-    "type": "checkbox",
-    "label": "Did they feed the Outpost",
-    "id": "DidFeed"
-  },
-  {
-    "type": "checkbox",
-    "label": "Feeder (Shot Fuel from Neutral Zone to Alliance Zone)",
-    "id": "DidShoot"
-  },
-  {
-    "type": "slider",
-    "id": "qFeederSkill",
-    "label": "Feeder Skill from 0-Didn't to 5-Very Effective?",
-    "options": {
-      "min": 0,
-      "max": 5,
-      "step": 1
-    },
-    "variant": "standard"
+    "type": "multiselect",
+    "label": "What Shift did they start on?",
+    "options": [
+      "1st Shift (Losing coming out of Auto)",
+      "2nd Shift (Winning coming out of Auto)"
+    ],
+    "id": "Shift"
   },
   {
     "type": "counter",
@@ -101,6 +64,13 @@
     "type": "counter",
     "label": "Set of 5 Fuel scored by robot in Hub",
     "id": "SetsOfFuel",
+    "allow_negative": false,
+    "variant": "standard"
+  },
+  {
+    "type": "counter",
+    "label": "Set of 10 Fuel scored by robot in Hub",
+    "id": "SetsOfFuelTen",
     "allow_negative": false,
     "variant": "standard"
   },
@@ -138,7 +108,72 @@
   },
   {
     "type": "header",
-    "label": "General"
+    "label": "Post-Match"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they go to the Neutral Zone in Auto?",
+    "id": "AutoNeutral"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they feed the Alliance Zone in Auto? (Shoot Fuel from the Neutral Zone to the Alliance Zone)",
+    "id": "Autofeed"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they get Fuel from the Depot?",
+    "id": "DepotFuel"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they pick up Fuel from the ground?",
+    "id": "IntakeGround"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they get Fuel from the Outpost?",
+    "id": "OutpostIntake"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they feed the Outpost?",
+    "id": "DidFeedOutpost"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "checkbox",
+    "label": "Feeder/Passer (Shot/Pushed Fuel from Neutral/Opposing Alliance Zone to Alliance Zone)",
+    "id": "Didfeed"
+  },
+  {
+    "type": "slider",
+    "id": "qFeederSkill",
+    "label": "Feeder Skill from 0-Didn't to 5-Very Effective?",
+    "options": {
+      "min": 0,
+      "max": 5,
+      "step": 1
+    },
+    "variant": "standard"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "checkbox",
+    "label": "Can they shoot and move at the same time?",
+    "id": "MoveandShoot"
+  },
+  {
+    "type": "checkbox",
+    "label": "Did they go under the Trench?",
+    "id": "didgoundertrench"
   },
   {
     "type": "checkbox",
@@ -147,8 +182,21 @@
   },
   {
     "type": "checkbox",
+    "id": "diedonbump",
+    "label": "Died/stuck on the Bump?"
+  },
+  {
+    "type": "checkbox",
+    "id": "stuckfuel",
+    "label": "Did they died/stuck on Fuel?"
+  },
+  {
+    "type": "checkbox",
     "id": "TippedOver",
     "label": "Tipped over during the match?"
+  },
+  {
+    "type": "spacer"
   },
   {
     "type": "slider",
@@ -173,6 +221,19 @@
     "variant": "standard"
   },
   {
+    "type": "spacer"
+  },
+  {
+    "type": "checkbox",
+    "id": "hightscoring",
+    "label": "Was it a high scoring bot?"
+  },
+  {
+    "type": "checkbox",
+    "id": "lowscoring",
+    "label": "Was it a low scoring bot?"
+  },
+  {
     "type": "slider",
     "id": "qFuelAccuracy",
     "label": "Fuel Accuracy from 0-Didn't Score Fuel to 5-Very Accurate?",
@@ -182,6 +243,9 @@
       "step": 1
     },
     "variant": "standard"
+  },
+  {
+    "type": "spacer"
   },
   {
     "type": "checkbox",
@@ -205,7 +269,7 @@
   },
   {
     "type": "derived",
-    "formula": "SingleFuel + 5*SetsOfFuel",
+    "formula": "SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen",
     "id": "TeleopPoints"
   },
   {
@@ -220,7 +284,7 @@
   },
   {
     "type": "derived",
-    "formula": "SingleFuel + 5*SetsOfFuel + autoTotalFuel",
+    "formula": "SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen + autoTotalFuel",
     "id": "FuelPoints"
   },
   {
@@ -230,7 +294,7 @@
   },
   {
     "type": "derived",
-    "formula": "if(autoTotalFuel > (SingleFuel + 5*SetsOfFuel), 1, 0)",
+    "formula": "if(autoTotalFuel > (SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen), 1, 0)",
     "id": "AutoMistake"
   }
 ]
