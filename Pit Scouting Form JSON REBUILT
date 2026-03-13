@@ -199,40 +199,18 @@
   },
   {
     "type": "checkbox",
-    "label": "Can they feed the Outpost?",
-    "id": "canfeedOutpost"
-  },
-  {
-    "type": "checkbox",
     "label": "Can they pick up Fuel from the Depot?",
     "id": "canPickupFuelDepot"
   },
   {
     "type": "checkbox",
-    "label": "Can they feed the Alliance Zone? (Shoot Fuel from the Neutral Zone to the Alliance Zone)",
-    "id": "canfeedAllianceZone"
-  },
-  {
-    "type": "checkbox",
-    "label": "Can they also feed our Alliance Zone from the other alliance's Alliance Zone?",
+    "label": "Can they also feed our Alliance Zone from the other alliance's Alliance Zone?(Shoot Fuel from Alliance Zone to Alliance Zone)",
     "id": "canfeedAZfromAZ"
   },
   {
     "type": "checkbox",
     "label": "Can they shoot and move at the same time?",
     "id": "canshootandmove"
-  },
-  {
-    "type": "spacer"
-  },
-  {
-    "type": "subheader",
-    "label": "TELEOP SCORING"
-  },
-  {
-    "type": "checkbox",
-    "label": "Can they score Fuel?",
-    "id": "canScoreFuel"
   },
   {
     "type": "spacer"
@@ -298,7 +276,7 @@
   },
   {
     "type": "textblock",
-    "label": "What is their preferred strategy during PLAYOFFS (Offence, Defence, Feed, ETC...)",
+    "label": "Does that change for Playoffs?",
     "id": "PlayoffStrategy"
   },
   {
