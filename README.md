@@ -2,8 +2,7 @@
 <h3 align="center">The Robotics team of Perry High School.<br><br>
 </h3>
 
----
-
+# About Us
 We are the **Perry RAMBOTS**, [FRC Team 6548](https://www.thebluealliance.com/team/6548). Our team was established in 2017, and have since qualified and attended the World competition 4 times. Our rookie team consisted of 8 members, one coach and a couple of mentors, attending the World competition in St. Louis Missouri. We have since grown to be a team with 21 7th - 12th graders who work dilligently as a team and with the community. We support the enviroment by recycling pop cans and returning scrap metal all to raise funds for our travel and robot expenses. Though we raise a lot of funds through fundraising we are lucky to be in a community that supports our dreams every year and we are ever grateful for each and every one of our business and individual sponsors. Our community outreach consists of free movie nights in our High School auditorium, bottle drives, family fun festivals, volunteering at the local VFW hall and inviting other local team to workshops and events.
 
 ## Our Accomplishments
