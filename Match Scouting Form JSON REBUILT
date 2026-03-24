@@ -33,7 +33,21 @@
   {
     "type": "counter",
     "label": "Fuel scored by robot in Auto Single Fuel",
-    "id": "autoTotalFuel",
+    "id": "autoFuelsingle",
+    "allow_negative": false,
+    "variant": "standard"
+  },
+  {
+    "type": "counter",
+    "label": "Fuel scored by robot in Auto set of Five Fuel",
+    "id": "autoFuelset",
+    "allow_negative": false,
+    "variant": "standard"
+  },
+  {
+    "type": "counter",
+    "label": "Fuel scored by robot in Auto set of Ten Fuel",
+    "id": "autoFuelsetten",
     "allow_negative": false,
     "variant": "standard"
   },
@@ -177,6 +191,14 @@
   },
   {
     "type": "checkbox",
+    "id": "shoottower",
+    "label": "Did they shoot from the Tower AFTER climbing?"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "checkbox",
     "id": "diedDuringMatch",
     "label": "Died during the match (or never started)?"
   },
@@ -264,7 +286,7 @@
   },
   {
     "type": "derived",
-    "formula": "autoTotalFuel + 15*AutoClimb",
+    "formula": "autoFuelsingle + 5*autoFuelset + 10*autoFuelsetten + 15*AutoClimb",
     "id": "AutoPoints"
   },
   {
@@ -284,7 +306,7 @@
   },
   {
     "type": "derived",
-    "formula": "SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen + autoTotalFuel",
+    "formula": "SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen + autoFuelsingle + 5*autoFuelset + 10*autoFuelsetten",
     "id": "FuelPoints"
   },
   {
@@ -294,7 +316,7 @@
   },
   {
     "type": "derived",
-    "formula": "if(autoTotalFuel > (SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen), 1, 0)",
+    "formula": "if(FuelPoints > (SingleFuel + 5*SetsOfFuel + 10*SetsOfFuelTen), 1, 0)",
     "id": "AutoMistake"
   }
 ]
