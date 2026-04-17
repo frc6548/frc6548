@@ -1,8 +1,8 @@
 [
   {
     "type": "header",
-    "label": "This is an old document! Please use the ones from https://github.com/frc6548/ScoutingForms"
-  }
+    "label": "This is an old form! Please use the new ones from https://github.com/frc6548/ScoutingForms"
+  },
   {
     "type": "header",
     "label": "Pre-Match"
