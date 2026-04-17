@@ -1,4 +1,4 @@
-<h1 align="center"><img src="perry rambots banner.webp"></h1>
+<h1 align="center"><img src="perry rambots banner.png"></h1>
 <h3 align="center">The Robotics team of Perry High School.<br><br>
 </h3>
 
