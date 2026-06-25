@@ -1,15 +1,29 @@
 <h1 align="center"><img src="perry rambots banner.png"></h1>
-<h3 align="center">The Robotics team of Perry High School.<br><br>
-</h3>
+<h3 align="center">The Robotics team of Perry High School.</h3>
 
 # About Us
-We are the **Perry RAMBOTS**, [FRC Team 6548](https://www.thebluealliance.com/team/6548). Our team was established in 2017, and have since qualified and attended the World competition 4 times. Our rookie team consisted of 8 members, one coach and a couple of mentors, attending the World competition in St. Louis Missouri. We have since grown to be a team with 21 7th - 12th graders who work dilligently as a team and with the community. We support the enviroment by recycling pop cans and returning scrap metal all to raise funds for our travel and robot expenses. Though we raise a lot of funds through fundraising we are lucky to be in a community that supports our dreams every year and we are ever grateful for each and every one of our business and individual sponsors. Our community outreach consists of free movie nights in our High School auditorium, bottle drives, family fun festivals, volunteering at the local VFW hall and inviting other local team to workshops and events.
 
-## Our Accomplishments
-- 🌎 Former Worlds Contestant (2017 - 2018)
-- 🏆 Winner of Sustainability Award
+We are the **Perry RAMBOTS**, [FRC Team 6548](https://www.thebluealliance.com/team/6548), based at Perry High School in Perry, Michigan. Our team was established in 2017 with 8 founding members, one coach, and a couple of mentors, attending the World Championship in St. Louis, Missouri in our rookie year. We have since grown to a team of 7th through 12th graders who work diligently together and with our community. We support the environment by recycling pop cans and returning scrap metal to help fund travel and robot expenses. Though we raise a lot through fundraising, we are grateful to be in a community that supports us every year, and we appreciate each and every one of our business and individual sponsors.
+
+## Programs
+
+**FRC (FIRST Robotics Competition)** - Our primary program for high school students, competing in the FIRST in Michigan district where students design, build, and compete with full-scale robots.
+
+**FTC (FIRST Tech Challenge)** - Launching in the 2026-2027 season, this program will serve middle school and younger high school students.
+
+## Community Outreach
+
+Our outreach activities include free movie nights in the Perry High School auditorium, bottle drives, family fun festivals, volunteering at the local VFW hall, and hosting workshops and events for other local teams.
+
+## Accomplishments
+
+- World Championship Qualifier (2017, 2018, and 2025) - 4 total appearances
+- Team Sustainability Award
+- Judges' Award
+- Autonomous Award
 
 ## Our Sponsors
+
 Thank you to all of our sponsors:
 
 | China Garden | Walmart of Okemos | Midway Rotary & Die | Gene Haas Foundation | The Andersons Inc. |
